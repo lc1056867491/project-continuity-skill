@@ -1,0 +1,7 @@
+interface:
+  display_name: "项目连续性管理"
+  short_description: "跨会话管理项目需求、工作进度与交接状态，支持可靠恢复与持续推进"
+  default_prompt: "使用 $project-continuity 同步进度，整理本次会话的重要结论并更新项目档案。"
+
+policy:
+  allow_implicit_invocation: false
